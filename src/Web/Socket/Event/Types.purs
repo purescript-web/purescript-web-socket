@@ -1,4 +1,4 @@
-module DOM.Websocket.Event.Types where
+module Web.Socket.Event.Types where
 
 import Data.Foreign (Foreign, F, unsafeReadTagged)
 import DOM.Event.Types (Event)

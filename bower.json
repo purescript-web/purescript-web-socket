@@ -19,7 +19,8 @@
     "gulpfile.js",
     "package.json"
   ],
-  "dependencies": {
+    "dependencies": {
+    "purescript-dom": "git@github.com:gabejohnson/purescript-dom.git#remove-web-socket",
     "purescript-arraybuffer-types": "^1.0.0",
     "purescript-datetime": "^3.0.0",
     "purescript-enums": "^3.0.0",

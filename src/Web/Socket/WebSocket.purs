@@ -1,4 +1,4 @@
-module DOM.Websocket.WebSocket
+module Web.Socket
   ( create
   , url
   , readyState
@@ -12,10 +12,10 @@ module DOM.Websocket.WebSocket
   , sendBlob
   , sendArrayBuffer
   , sendArrayBufferView
-  , module DOM.Websocket.BinaryType
-  , module DOM.Websocket.Event.Types
-  , module DOM.Websocket.ReadyState
-  , module DOM.Websocket.Types
+  , module Web.Socket.BinaryType
+  , module Web.Socket.Event.Types
+  , module Web.Socket.ReadyState
+  , module Web.Socket.Types
   ) where
 
 import Prelude
@@ -28,10 +28,10 @@ import Data.Maybe (fromJust)
 
 import DOM (DOM)
 import DOM.File.Types (Blob)
-import DOM.Websocket.BinaryType (BinaryType(..), fromEnumBinaryType, printBinaryType, toEnumBinaryType)
-import DOM.Websocket.Event.Types (CloseEvent, MessageEvent, readCloseEvent, readMessageEvent)
-import DOM.Websocket.ReadyState (ReadyState(..), fromEnumReadyState, toEnumReadyState)
-import DOM.Websocket.Types (Protocol(..), URL(..), WebSocket, readWebSocket, socketToEventTarget)
+import Web.Socket.BinaryType (BinaryType(..), fromEnumBinaryType, printBinaryType, toEnumBinaryType)
+import Web.Socket.Event.Types (CloseEvent, MessageEvent, readCloseEvent, readMessageEvent)
+import Web.Socket.ReadyState (ReadyState(..), fromEnumReadyState, toEnumReadyState)
+import Web.Socket.Types (Protocol(..), URL(..), WebSocket, readWebSocket, socketToEventTarget)
 
 import Partial.Unsafe (unsafePartial)
 

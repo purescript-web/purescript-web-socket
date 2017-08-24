@@ -1,5 +1,5 @@
-module DOM.Websocket.Types
-  ( module DOM.Websocket.Types
+module Web.Socket.Types
+  ( module Web.Socket.Types
   , module DOM.HTML.History
   ) where
 
