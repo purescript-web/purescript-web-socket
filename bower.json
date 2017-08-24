@@ -1,14 +1,14 @@
 {
-  "name": "purescript-dom",
-  "homepage": "https://github.com/purescript-web/purescript-dom",
-  "description": "PureScript type definitions and effect for interacting with the DOM",
+  "name": "purescript-web-socket",
+  "homepage": "https://github.com/purescript-web/purescript-web-socket",
+  "description": "PureScript type definitions and effect for interacting with the WebSockets API",
   "keywords": [
     "purescript"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/purescript-web/purescript-dom.git"
+    "url": "git://github.com/purescript-web/purescript-web-socket.git"
   },
   "ignore": [
     "**/.*",
@@ -16,26 +16,14 @@
     "node_modules",
     "output",
     "bower.json",
-    "gulpfile.js",
     "package.json"
   ],
     "dependencies": {
     "purescript-dom": "git@github.com:gabejohnson/purescript-dom.git#remove-web-socket",
     "purescript-arraybuffer-types": "^1.0.0",
-    "purescript-datetime": "^3.0.0",
     "purescript-enums": "^3.0.0",
-    "purescript-exceptions": "^3.0.0",
-    "purescript-foldable-traversable": "^3.0.0",
     "purescript-foreign": "^4.0.0",
-    "purescript-js-date": "^4.0.0",
-    "purescript-media-types": "^3.0.0",
-    "purescript-nullable": "^3.0.0",
     "purescript-prelude": "^3.0.0",
     "purescript-unsafe-coerce": "^3.0.0"
-  },
-  "devDependencies": {
-    "purescript-test-unit": "^11.0.0",
-    "purescript-phantom": "^2.0.0",
-    "purescript-exitcodes": "^3.0.0"
   }
 }
