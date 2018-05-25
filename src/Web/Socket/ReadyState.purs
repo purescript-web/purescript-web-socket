@@ -1,4 +1,4 @@
-module Web.WebSocket.ReadyState where
+module Web.Socket.ReadyState where
 
 import Prelude
 import Data.Enum (Cardinality(..), class BoundedEnum, defaultPred, defaultSucc, class Enum)

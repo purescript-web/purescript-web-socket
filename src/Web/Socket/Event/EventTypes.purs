@@ -1,4 +1,4 @@
-module Web.WebSocket.Event.EventTypes where
+module Web.Socket.Event.EventTypes where
 
 import Web.Event.Event (EventType(..))
 

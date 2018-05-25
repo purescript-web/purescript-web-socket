@@ -1,4 +1,4 @@
-module Web.WebSocket.BinaryType where
+module Web.Socket.BinaryType where
 
 import Prelude
 import Data.Enum (Cardinality(..), class BoundedEnum, defaultPred, defaultSucc, class Enum)

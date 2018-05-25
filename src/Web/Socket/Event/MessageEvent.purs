@@ -1,4 +1,4 @@
-module Web.WebSocket.Event.MessageEvent where
+module Web.Socket.Event.MessageEvent where
 
 import Data.Maybe (Maybe)
 import Foreign (Foreign)

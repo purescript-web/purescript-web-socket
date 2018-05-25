@@ -1,4 +1,4 @@
-module Web.WebSocket.WebSocket
+module Web.Socket.WebSocket
   ( WebSocket
   , fromEventTarget
   , toEventTarget
@@ -29,8 +29,8 @@ import Unsafe.Coerce (unsafeCoerce)
 import Web.Event.EventTarget (EventTarget)
 import Web.File.Blob (Blob)
 import Web.Internal.FFI (unsafeReadProtoTagged)
-import Web.WebSocket.BinaryType (BinaryType(..), printBinaryType)
-import Web.WebSocket.ReadyState (ReadyState, toEnumReadyState)
+import Web.Socket.BinaryType (BinaryType(..), printBinaryType)
+import Web.Socket.ReadyState (ReadyState, toEnumReadyState)
 
 foreign import data WebSocket :: Type
 

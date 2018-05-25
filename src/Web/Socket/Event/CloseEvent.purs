@@ -1,4 +1,4 @@
-module Web.WebSocket.Event.CloseEvent where
+module Web.Socket.Event.CloseEvent where
 
 import Data.Maybe (Maybe)
 import Unsafe.Coerce (unsafeCoerce)
