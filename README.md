@@ -3,7 +3,7 @@
 [![Latest release](http://img.shields.io/github/release/purescript-web/purescript-web-socket.svg)](https://github.com/purescript-web/purescript-web-socket/releases)
 [![Build status](https://travis-ci.org/purescript-web/purescript-web-socket.svg?branch=master)](https://travis-ci.org/purescript-web/purescript-web-socket)
 
-Type definitions and low level interface implementations for the W3C WebSocket API.
+Type definitions and low level interface implementations for the [W3C WebSocket API](https://www.w3.org/TR/websockets/).
 
 ## Installation
 
