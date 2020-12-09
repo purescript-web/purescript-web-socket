@@ -15,7 +15,7 @@
     "package.json"
   ],
   "dependencies": {
-    "purescript-arraybuffer-types": "^2.0.0",
-    "purescript-web-file": "^2.0.0"
+    "purescript-arraybuffer-types": "master",
+    "purescript-web-file": "master"
   }
 }
