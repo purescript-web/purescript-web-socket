@@ -5,18 +5,20 @@ Notable changes to this project are documented in this file. The format is based
 ## [Unreleased]
 
 Breaking changes:
+- Added support for PureScript 0.14 and dropped support for all previous versions (#7)
 
 New features:
 
 Bugfixes:
 
 Other improvements:
+- Migrated CI to GitHub Actions and updated installation instructions to use Spago (#5)
+- Added a CHANGELOG.md file and pull request template (#8, #9)
 
 ## [v2.0.0](https://github.com/purescript-web/purescript-web-socket/releases/tag/v2.0.0) - 2019-02-23
 
-Bumped `-web-events` dependency, `Event.defaultPrevented` is now effectful.
+- Bumped `-web-events` dependency, `Event.defaultPrevented` is now effectful.
 
 ## [v1.0.0](https://github.com/purescript-web/purescript-web-socket/releases/tag/v1.0.0) - 2018-05-25
 
-Initial release
-
+- Initial release
