@@ -1,13 +1,13 @@
 "use strict";
 
-exports.code = function (e) {
+export function code(e) {
   return e.code;
-};
+}
 
-exports.reason = function (e) {
+export function reason(e) {
   return e.reason;
-};
+}
 
-exports.wasClean = function (e) {
+export function wasClean(e) {
   return e.wasClean;
-};
+}

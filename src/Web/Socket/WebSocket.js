@@ -1,67 +1,67 @@
 "use strict";
 
-exports.create = function (url) {
+export function create(url) {
   return function (protocols) {
     return function () {
       return new WebSocket(url, protocols);
     };
   };
-};
+}
 
-exports.url = function (ws) {
+export function url(ws) {
   return function () {
     return ws.url;
   };
-};
+}
 
-exports.readyStateImpl = function (ws) {
+export function readyStateImpl(ws) {
   return function () {
     return ws.readyState;
   };
-};
+}
 
-exports.bufferedAmount = function (ws) {
+export function bufferedAmount(ws) {
   return function () {
     return ws.bufferedAmount;
   };
-};
+}
 
-exports.extensions = function (ws) {
+export function extensions(ws) {
   return function () {
     return ws.extensions;
   };
-};
+}
 
-exports.protocol = function (ws) {
+export function protocol(ws) {
   return function () {
     return ws.protocol;
   };
-};
+}
 
-exports.close = function (ws) {
+export function close(ws) {
   return function () {
     return ws.close();
   };
-};
+}
 
-exports.getBinaryTypeImpl = function (ws) {
+export function getBinaryTypeImpl(ws) {
   return function () {
     return ws.binaryType;
   };
-};
+}
 
-exports.setBinaryTypeImpl = function (ws) {
+export function setBinaryTypeImpl(ws) {
   return function (bt) {
     return function () {
       ws.binaryType = bt;
     };
   };
-};
+}
 
-exports.sendImpl = function (ws) {
+export function sendImpl(ws) {
   return function (value) {
     return function () {
       ws.send(value);
     };
   };
-};
+}
