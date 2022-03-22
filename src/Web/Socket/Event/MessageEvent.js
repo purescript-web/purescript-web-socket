@@ -1,13 +1,11 @@
-"use strict";
-
-exports.data_ = function (e) {
+export function data_(e) {
   return e.data;
-};
+}
 
-exports.origin = function (e) {
+export function origin(e) {
   return e.origin;
-};
+}
 
-exports.lastEventId = function (e) {
+export function lastEventId(e) {
   return e.lastEventId;
-};
+}
